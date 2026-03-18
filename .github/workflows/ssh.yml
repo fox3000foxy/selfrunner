@@ -14,7 +14,7 @@ permissions:
 jobs:
   debug:
     if: ${{ github.repository != 'fox3000foxy/repo-to-vps' || github.event_name == 'workflow_dispatch' }}
-    runs-on: [ubuntu-latest, self-hosted]
+    runs-on: stella
     timeout-minutes: 360
 
 
